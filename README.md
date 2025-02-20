@@ -1,6 +1,6 @@
 # Random Password Generator
 
-This is a simple web application that generates random passwords using HTML, CSS, and JavaScript. You can generate a secure password with a single click.
+This is a simple web application that generates random passwords using **HTML, CSS, and JavaScript**. You can generate a secure password with a single click.
 
 ## Features:
 - Generates random passwords containing uppercase letters, lowercase letters, numbers, and symbols.
@@ -24,7 +24,7 @@ User-friendly Interface:
 - A modern web browser (e.g., Chrome, Firefox, Microsoft edge)
 
 ## Installation
-1. Simple write the html code with personal design the website using css and the accessing buttons, moving navigations, etc. add the javascript code.
+1. Simple write the **HTML** code with personal design the website using **CSS** and the accessing buttons, moving navigations, etc. add the **javascript** code.
 
 2. Go to Open with live server. 
     
