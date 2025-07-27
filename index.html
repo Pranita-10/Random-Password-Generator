@@ -8,22 +8,20 @@
 <body>
     
 <div class="container">
-    <h1>Generator a <br><span>Random Password</span></h1>
+    <h1>Generate a <br><span>Random Password</span></h1>
     <div class="display">
         <input type="text" id="password" placeholder="password">
-        <img src="/images/copy.png" alt="image" onclick="copyPassword()">
-
+        <img src="copy.png" alt="Copy" onclick="copyPassword()">
     </div>
-
+    <div id="copyMsg">Password Copied!</div>
     <button onclick="createPassword()">
-        <img src="/images/generate.png" alt="generate">Generate Password </button>
-
-    </div>
-
+        <img src="/generate.png" alt="generate">Generate Password
+    </button>
+</div>
 
 <script>
-
 const passwordBox = document.getElementById("password");
+const copyMsg = document.getElementById("copyMsg");
 const length = 12;
 
 const upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -40,18 +38,26 @@ function createPassword(){
     password += number[Math.floor(Math.random() * number.length)];
     password += symbol[Math.floor(Math.random() * symbol.length)];
 
-    while(length > password.length){
+    while(password.length < length){
         password += allChars[Math.floor(Math.random() * allChars.length)];
     }
     passwordBox.value = password;
 }
 
-
 function copyPassword(){
-    passwordBox.select();
-    document.execCommand("copy");
-}
+    if (passwordBox.value !== "") {
+        passwordBox.select();
+        document.execCommand("copy");
 
+        // Show message
+        copyMsg.style.display = "block";
+
+        // Hide after 2 seconds
+        setTimeout(() => {
+            copyMsg.style.display = "none";
+        }, 2000);
+    }
+}
 </script>
 
 </body>
