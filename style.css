@@ -52,6 +52,13 @@ body{
     font-size: 20px;
 }
 
+
+ #copyMsg {
+            display: none;
+            color: white;
+            font-size: 15px;
+        }
+
 .container button img{
     width: 28px;
     margin-right: 10px;
@@ -71,4 +78,3 @@ body{
     border-radius: 5px;
     cursor: pointer;
 }
-
