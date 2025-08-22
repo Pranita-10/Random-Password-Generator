@@ -21,7 +21,7 @@ User-friendly Interface:
 - The design is simple, clean, and easy to understand, with intuitive buttons and a clear display area for the password.
 
 ## Requirements:
-- A modern web browser (e.g., Chrome, Firefox, Microsoft edge)
+- A modern web browser (e.g., Chrome, Firefox, Microsoft edge).
 
 ## Installation
 1. Simple write the **HTML** code with personal design the website using **CSS** and the accessing buttons, moving navigations, etc. add the **javascript** code.
