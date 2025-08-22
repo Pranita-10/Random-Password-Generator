@@ -6,7 +6,7 @@ This is a simple web application that generates random passwords using **HTML, C
 - Generates random passwords containing uppercase letters, lowercase letters, numbers, and symbols.
 Password Length Customization:
 
-- Users can choose or set the length of the generated password (e.g., 8, 12, 16 characters).
+- Users can choose or set the length of the generated password (e.g. 8, 12, 16 characters).
 Password Display:
 
 - Once the password is generated, it should be displayed in a read-only input field for easy copying.
